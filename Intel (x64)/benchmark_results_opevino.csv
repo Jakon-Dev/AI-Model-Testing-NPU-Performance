@@ -1,0 +1,31 @@
+modelo,dispositivo,tiempo_ms,estado,forma_original,forma_usada,tipo_modelo
+bert_google_huggingface.onnx,CPU,0.00,OK,"[0, 0]","[1, 1]",texto
+bert_google_huggingface.onnx,GPU,0.73,OK,"[0, 0]","[1, 1]",texto
+bert_google_huggingface.onnx,NPU,N/A,"Error","[0, 0]","[1, 1]",texto
+efficientnet_lite4_11.onnx,CPU,21.07,OK,"[1, 224, 224, 3]","[1, 224, 224, 3]",imagen
+efficientnet_lite4_11.onnx,GPU,1.52,OK,"[1, 224, 224, 3]","[1, 224, 224, 3]",imagen
+efficientnet_lite4_11.onnx,NPU,2.16,OK,"[1, 224, 224, 3]","[1, 224, 224, 3]",imagen
+gpt2-10.onnx,CPU,13.39,OK,"[0, 0, 0]","[1, 1, 1]",audio
+gpt2-10.onnx,GPU,4.40,OK,"[0, 0, 0]","[1, 1, 1]",audio
+gpt2-10.onnx,NPU,N/A,"Error","[0, 0, 0]","[1, 1, 1]",audio
+inceptionv2.onnx,CPU,26.61,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+inceptionv2.onnx,GPU,1.36,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+inceptionv2.onnx,NPU,1.65,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+mobilenetv2.onnx,CPU,7.89,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+mobilenetv2.onnx,GPU,0.71,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+mobilenetv2.onnx,NPU,1.05,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet101.onnx,CPU,77.39,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet101.onnx,GPU,2.88,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet101.onnx,NPU,9.06,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet50.onnx,CPU,45.06,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet50.onnx,GPU,2.30,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+resnet50.onnx,NPU,6.32,OK,"[0, 3, 224, 224]","[1, 3, 224, 224]",imagen
+roberta-base.onnx,CPU,6.23,OK,"[0, 0]","[1, 1]",texto
+roberta-base.onnx,GPU,4.46,OK,"[0, 0]","[1, 1]",texto
+roberta-base.onnx,NPU,N/A,"Error","[0, 0]","[1, 1]",texto
+roberta_large.onnx,CPU,8.02,OK,"[0, 0]","[1, 1]",texto
+roberta_large.onnx,GPU,N/A,"Error ","[0, 0]","[1, 1]",texto
+roberta_large.onnx,NPU,N/A,"Error","[0, 0]","[1, 1]",texto
+squeezenet.onnx,CPU,6.00,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+squeezenet.onnx,GPU,0.55,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen
+squeezenet.onnx,NPU,1.07,OK,"[1, 3, 224, 224]","[1, 3, 224, 224]",imagen

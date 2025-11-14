@@ -1,0 +1,43 @@
+modelo,proveedor,tiempo_ms,estado,formas_originales,formas_usadas,tipo_modelo
+bert_google_huggingface.onnx,QNNExecutionProvider,12.49,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length'], 'token_type_ids': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1], 'token_type_ids': [1, 1]}",texto
+bert_google_huggingface.onnx,AzureExecutionProvider,6.73,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length'], 'token_type_ids': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1], 'token_type_ids': [1, 1]}",texto
+bert_google_huggingface.onnx,CPUExecutionProvider,6.27,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length'], 'token_type_ids': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1], 'token_type_ids': [1, 1]}",texto
+densenet121_12.onnx,QNNExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Failed to finalize QNN graph.,"{'data_0': [1, 3, 224, 224]}",N/A,imagen
+densenet121_12.onnx,AzureExecutionProvider,21.23,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+densenet121_12.onnx,CPUExecutionProvider,23.94,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+densenet121_7.onnx,QNNExecutionProvider,6.96,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+densenet121_7.onnx,AzureExecutionProvider,20.49,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+densenet121_7.onnx,CPUExecutionProvider,21.09,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+efficientnet_lite4_11.onnx,QNNExecutionProvider,4.58,OK,"{'images:0': [1, 224, 224, 3]}","{'images:0': [1, 224, 224, 3]}",imagen
+efficientnet_lite4_11.onnx,AzureExecutionProvider,39.40,OK,"{'images:0': [1, 224, 224, 3]}","{'images:0': [1, 224, 224, 3]}",imagen
+efficientnet_lite4_11.onnx,CPUExecutionProvider,39.72,OK,"{'images:0': [1, 224, 224, 3]}","{'images:0': [1, 224, 224, 3]}",imagen
+gpt2-10.onnx,QNNExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Failed to finalize QNN graph.,"{'input1': ['input1_dynamic_axes_1', 'input1_dynamic_axes_2', 'input1_dynamic_axes_3']}",N/A,texto
+gpt2-10.onnx,AzureExecutionProvider,63.61,OK,"{'input1': ['input1_dynamic_axes_1', 'input1_dynamic_axes_2', 'input1_dynamic_axes_3']}","{'input1': [1, 1, 1]}",texto
+gpt2-10.onnx,CPUExecutionProvider,66.97,OK,"{'input1': ['input1_dynamic_axes_1', 'input1_dynamic_axes_2', 'input1_dynamic_axes_3']}","{'input1': [1, 1, 1]}",texto
+inceptionv2.onnx,QNNExecutionProvider,3.78,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+inceptionv2.onnx,AzureExecutionProvider,9.29,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+inceptionv2.onnx,CPUExecutionProvider,9.82,OK,"{'data_0': [1, 3, 224, 224]}","{'data_0': [1, 3, 224, 224]}",imagen
+mobilenetv2.onnx,QNNExecutionProvider,2.58,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+mobilenetv2.onnx,AzureExecutionProvider,11.55,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+mobilenetv2.onnx,CPUExecutionProvider,11.90,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+resnet101.onnx,QNNExecutionProvider,35.72,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+resnet101.onnx,AzureExecutionProvider,30.56,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+resnet101.onnx,CPUExecutionProvider,30.50,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+resnet50.onnx,QNNExecutionProvider,20.10,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",texto
+resnet50.onnx,AzureExecutionProvider,16.28,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",texto
+resnet50.onnx,CPUExecutionProvider,16.14,OK,"{'data': ['N', 3, 224, 224]}","{'data': [1, 3, 224, 224]}",texto
+roberta-base.onnx,QNNExecutionProvider,8.25,OK,"{'input_ids': ['batch_size', 'seq_len']}","{'input_ids': [1, 1]}",texto
+roberta-base.onnx,AzureExecutionProvider,4.92,OK,"{'input_ids': ['batch_size', 'seq_len']}","{'input_ids': [1, 1]}",texto
+roberta-base.onnx,CPUExecutionProvider,4.58,OK,"{'input_ids': ['batch_size', 'seq_len']}","{'input_ids': [1, 1]}",texto
+roberta_large.onnx,QNNExecutionProvider,23.42,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1]}",texto
+roberta_large.onnx,AzureExecutionProvider,19.58,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1]}",texto
+roberta_large.onnx,CPUExecutionProvider,18.04,OK,"{'input_ids': ['batch_size', 'sequence_length'], 'attention_mask': ['batch_size', 'sequence_length']}","{'input_ids': [1, 1], 'attention_mask': [1, 1]}",texto
+squeezenet.onnx,QNNExecutionProvider,1.40,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+squeezenet.onnx,AzureExecutionProvider,4.03,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+squeezenet.onnx,CPUExecutionProvider,2.30,OK,"{'data': [1, 3, 224, 224]}","{'data': [1, 3, 224, 224]}",imagen
+whisper_large_decoder.onnx,QNNExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Failed to finalize QNN graph.,"{'input_ids': ['batch_size', 'decoder_sequence_length'], 'encoder_hidden_states': ['batch_size', 'encoder_sequence_length / 2', 1280]}",N/A,audio
+whisper_large_decoder.onnx,AzureExecutionProvider,21.12,OK,"{'input_ids': ['batch_size', 'decoder_sequence_length'], 'encoder_hidden_states': ['batch_size', 'encoder_sequence_length / 2', 1280]}","{'input_ids': [1, 1], 'encoder_hidden_states': [1, 1, 1280]}",audio
+whisper_large_decoder.onnx,CPUExecutionProvider,22.24,OK,"{'input_ids': ['batch_size', 'decoder_sequence_length'], 'encoder_hidden_states': ['batch_size', 'encoder_sequence_length / 2', 1280]}","{'input_ids': [1, 1], 'encoder_hidden_states': [1, 1, 1280]}",audio
+whisper_large_encoder.onnx,QNNExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running QLinearConv node. Name:'/conv1/Conv_quant_token_44' Status Message: Input channels C is not equal to kernel channels * group. C: 1 kernel channels: 80 group: 1,"{'input_features': ['batch_size', 'feature_size', 'encoder_sequence_length']}",N/A,audio
+whisper_large_encoder.onnx,AzureExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running QLinearConv node. Name:'/conv1/Conv_quant_token_32' Status Message: Input channels C is not equal to kernel channels * group. C: 1 kernel channels: 80 group: 1,"{'input_features': ['batch_size', 'feature_size', 'encoder_sequence_length']}",N/A,audio
+whisper_large_encoder.onnx,CPUExecutionProvider,N/A,Error: [ONNXRuntimeError] : 1 : FAIL : Non-zero status code returned while running QLinearConv node. Name:'/conv1/Conv_quant_token_32' Status Message: Input channels C is not equal to kernel channels * group. C: 1 kernel channels: 80 group: 1,"{'input_features': ['batch_size', 'feature_size', 'encoder_sequence_length']}",N/A,audio
